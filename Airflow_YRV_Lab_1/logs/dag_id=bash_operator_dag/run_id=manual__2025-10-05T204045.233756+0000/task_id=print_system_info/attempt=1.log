@@ -1,0 +1,44 @@
+[2025-10-05T20:40:47.379+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2025-10-05T20:40:47.409+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: bash_operator_dag.print_system_info manual__2025-10-05T20:40:45.233756+00:00 [queued]>
+[2025-10-05T20:40:47.419+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: bash_operator_dag.print_system_info manual__2025-10-05T20:40:45.233756+00:00 [queued]>
+[2025-10-05T20:40:47.419+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2025-10-05T20:40:47.435+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): print_system_info> on 2025-10-05 20:40:45.233756+00:00
+[2025-10-05T20:40:47.443+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=115) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-10-05T20:40:47.444+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'bash_operator_dag', 'print_system_info', 'manual__2025-10-05T20:40:45.233756+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/bash_dag.py', '--cfg-path', '/tmp/tmp3a6zbk3a']
+[2025-10-05T20:40:47.445+0000] {standard_task_runner.py:63} INFO - Started process 116 to run task
+[2025-10-05T20:40:47.446+0000] {standard_task_runner.py:91} INFO - Job 9: Subtask print_system_info
+[2025-10-05T20:40:47.522+0000] {task_command.py:426} INFO - Running <TaskInstance: bash_operator_dag.print_system_info manual__2025-10-05T20:40:45.233756+00:00 [running]> on host 498134c69fd0
+[2025-10-05T20:40:47.626+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='your_name' AIRFLOW_CTX_DAG_ID='bash_operator_dag' AIRFLOW_CTX_TASK_ID='print_system_info' AIRFLOW_CTX_EXECUTION_DATE='2025-10-05T20:40:45.233756+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-05T20:40:45.233756+00:00'
+[2025-10-05T20:40:47.627+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2025-10-05T20:40:47.665+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-10-05T20:40:47.666+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'bash /opt/***/dags/data/system_info.sh']
+[2025-10-05T20:40:47.679+0000] {subprocess.py:86} INFO - Output:
+[2025-10-05T20:40:47.687+0000] {subprocess.py:93} INFO - ===== System Information =====
+[2025-10-05T20:40:47.693+0000] {subprocess.py:93} INFO - /opt/***/dags/data/system_info.sh: line 4: data: command not found
+[2025-10-05T20:40:47.694+0000] {subprocess.py:93} INFO - Dtate and Time:
+[2025-10-05T20:40:47.695+0000] {subprocess.py:93} INFO - /opt/***/dags/data/system_info.sh: line 5: uptime: command not found
+[2025-10-05T20:40:47.695+0000] {subprocess.py:93} INFO - Uptime:
+[2025-10-05T20:40:47.696+0000] {subprocess.py:93} INFO - Logged in users:
+[2025-10-05T20:40:47.700+0000] {subprocess.py:93} INFO - 
+[2025-10-05T20:40:47.701+0000] {subprocess.py:93} INFO - ===== Disk Usage Summary =====
+[2025-10-05T20:40:47.706+0000] {subprocess.py:93} INFO - Filesystem      Size  Used Avail Use% Mounted on
+[2025-10-05T20:40:47.707+0000] {subprocess.py:93} INFO - overlay        1007G  7.4G  949G   1% /
+[2025-10-05T20:40:47.709+0000] {subprocess.py:93} INFO - shm              64M   64K   64M   1% /dev/shm
+[2025-10-05T20:40:47.710+0000] {subprocess.py:93} INFO - /dev/sdd       1007G  7.4G  949G   1% /etc/hosts
+[2025-10-05T20:40:47.710+0000] {subprocess.py:93} INFO - D:\             684G   47G  638G   7% /opt/***/dags
+[2025-10-05T20:40:47.711+0000] {subprocess.py:93} INFO - 
+[2025-10-05T20:40:47.712+0000] {subprocess.py:93} INFO - ===== Top 5 Memory Consuming Processes =====
+[2025-10-05T20:40:47.712+0000] {subprocess.py:93} INFO - /opt/***/dags/data/system_info.sh: line 15: ps: command not found
+[2025-10-05T20:40:47.713+0000] {subprocess.py:93} INFO - 
+[2025-10-05T20:40:47.713+0000] {subprocess.py:93} INFO - ===== Network Interfaces and IPs =====
+[2025-10-05T20:40:47.714+0000] {subprocess.py:93} INFO - /opt/***/dags/data/system_info.sh: line 19: ip: command not found
+[2025-10-05T20:40:47.715+0000] {subprocess.py:93} INFO - 
+[2025-10-05T20:40:47.715+0000] {subprocess.py:93} INFO - Script run completed!
+[2025-10-05T20:40:47.716+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-10-05T20:40:47.717+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2025-10-05T20:40:47.747+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=bash_operator_dag, task_id=print_system_info, run_id=manual__2025-10-05T20:40:45.233756+00:00, execution_date=20251005T204045, start_date=20251005T204047, end_date=20251005T204047
+[2025-10-05T20:40:47.781+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2025-10-05T20:40:47.800+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-10-05T20:40:47.802+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
