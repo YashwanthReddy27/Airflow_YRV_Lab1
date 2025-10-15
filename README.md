@@ -3,9 +3,10 @@
 
 ```bash
 cd Airflow_YRV_Lab1
-
+```
 ```bash
 docker compose airflow-init
-
+```
 ```bash
 docker compose up
+```
