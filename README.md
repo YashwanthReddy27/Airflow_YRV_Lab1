@@ -10,3 +10,7 @@ docker compose airflow-init
 ```bash
 docker compose up
 ```
+
+Airflow Login details
+Username: airflow2
+password: airflow2

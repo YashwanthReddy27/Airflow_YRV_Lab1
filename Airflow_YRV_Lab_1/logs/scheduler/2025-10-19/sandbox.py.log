@@ -1,0 +1,46 @@
+[2025-10-19T16:23:37.005+0000] {processor.py:161} INFO - Started process (PID=342) to work on /opt/airflow/dags/sandbox.py
+[2025-10-19T16:23:37.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sandbox.py for tasks to queue
+[2025-10-19T16:23:37.009+0000] {logging_mixin.py:188} INFO - [2025-10-19T16:23:37.008+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sandbox.py
+[2025-10-19T16:23:37.065+0000] {processor.py:840} INFO - DAG(s) 'sandbox_dag' retrieved from /opt/airflow/dags/sandbox.py
+[2025-10-19T16:23:37.239+0000] {logging_mixin.py:188} INFO - [2025-10-19T16:23:37.238+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:sandbox_dag
+[2025-10-19T16:23:37.256+0000] {logging_mixin.py:188} INFO - [2025-10-19T16:23:37.256+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:sandbox_dag
+[2025-10-19T16:23:37.267+0000] {logging_mixin.py:188} INFO - [2025-10-19T16:23:37.266+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:sandbox_dag
+[2025-10-19T16:23:37.268+0000] {logging_mixin.py:188} INFO - [2025-10-19T16:23:37.267+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-19T16:23:37.283+0000] {logging_mixin.py:188} INFO - [2025-10-19T16:23:37.283+0000] {dag.py:3118} INFO - Creating ORM DAG for sandbox_dag
+[2025-10-19T16:23:37.300+0000] {logging_mixin.py:188} INFO - [2025-10-19T16:23:37.299+0000] {dag.py:3954} INFO - Setting next_dagrun for sandbox_dag to 2025-10-19 09:00:00+00:00, run_after=2025-10-20 09:00:00+00:00
+[2025-10-19T16:23:37.335+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sandbox.py took 0.338 seconds
+[2025-10-19T16:24:07.427+0000] {processor.py:161} INFO - Started process (PID=368) to work on /opt/airflow/dags/sandbox.py
+[2025-10-19T16:24:07.429+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sandbox.py for tasks to queue
+[2025-10-19T16:24:07.434+0000] {logging_mixin.py:188} INFO - [2025-10-19T16:24:07.433+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sandbox.py
+[2025-10-19T16:24:07.475+0000] {processor.py:840} INFO - DAG(s) 'sandbox_dag' retrieved from /opt/airflow/dags/sandbox.py
+[2025-10-19T16:24:07.507+0000] {logging_mixin.py:188} INFO - [2025-10-19T16:24:07.506+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-19T16:24:07.549+0000] {logging_mixin.py:188} INFO - [2025-10-19T16:24:07.549+0000] {dag.py:3954} INFO - Setting next_dagrun for sandbox_dag to 2025-10-19 09:00:00+00:00, run_after=2025-10-20 09:00:00+00:00
+[2025-10-19T16:24:07.598+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sandbox.py took 0.178 seconds
+[2025-10-19T16:24:37.797+0000] {processor.py:161} INFO - Started process (PID=393) to work on /opt/airflow/dags/sandbox.py
+[2025-10-19T16:24:37.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sandbox.py for tasks to queue
+[2025-10-19T16:24:37.803+0000] {logging_mixin.py:188} INFO - [2025-10-19T16:24:37.803+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sandbox.py
+[2025-10-19T16:24:37.847+0000] {processor.py:840} INFO - DAG(s) 'sandbox_dag' retrieved from /opt/airflow/dags/sandbox.py
+[2025-10-19T16:24:37.889+0000] {logging_mixin.py:188} INFO - [2025-10-19T16:24:37.889+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-19T16:24:37.927+0000] {logging_mixin.py:188} INFO - [2025-10-19T16:24:37.927+0000] {dag.py:3954} INFO - Setting next_dagrun for sandbox_dag to 2025-10-19 09:00:00+00:00, run_after=2025-10-20 09:00:00+00:00
+[2025-10-19T16:24:37.964+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sandbox.py took 0.178 seconds
+[2025-10-19T16:27:31.442+0000] {processor.py:161} INFO - Started process (PID=95) to work on /opt/airflow/dags/sandbox.py
+[2025-10-19T16:27:31.444+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sandbox.py for tasks to queue
+[2025-10-19T16:27:31.448+0000] {logging_mixin.py:188} INFO - [2025-10-19T16:27:31.447+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sandbox.py
+[2025-10-19T16:27:31.503+0000] {processor.py:840} INFO - DAG(s) 'sandbox_dag' retrieved from /opt/airflow/dags/sandbox.py
+[2025-10-19T16:27:31.911+0000] {logging_mixin.py:188} INFO - [2025-10-19T16:27:31.911+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-19T16:27:31.944+0000] {logging_mixin.py:188} INFO - [2025-10-19T16:27:31.944+0000] {dag.py:3954} INFO - Setting next_dagrun for sandbox_dag to 2025-10-19 09:00:00+00:00, run_after=2025-10-20 09:00:00+00:00
+[2025-10-19T16:27:31.986+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sandbox.py took 0.554 seconds
+[2025-10-19T16:28:02.403+0000] {processor.py:161} INFO - Started process (PID=120) to work on /opt/airflow/dags/sandbox.py
+[2025-10-19T16:28:02.405+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sandbox.py for tasks to queue
+[2025-10-19T16:28:02.409+0000] {logging_mixin.py:188} INFO - [2025-10-19T16:28:02.408+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sandbox.py
+[2025-10-19T16:28:02.461+0000] {processor.py:840} INFO - DAG(s) 'sandbox_dag' retrieved from /opt/airflow/dags/sandbox.py
+[2025-10-19T16:28:02.500+0000] {logging_mixin.py:188} INFO - [2025-10-19T16:28:02.500+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-19T16:28:02.544+0000] {logging_mixin.py:188} INFO - [2025-10-19T16:28:02.543+0000] {dag.py:3954} INFO - Setting next_dagrun for sandbox_dag to 2025-10-19 09:00:00+00:00, run_after=2025-10-20 09:00:00+00:00
+[2025-10-19T16:28:02.577+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sandbox.py took 0.190 seconds
+[2025-10-19T16:28:32.969+0000] {processor.py:161} INFO - Started process (PID=145) to work on /opt/airflow/dags/sandbox.py
+[2025-10-19T16:28:32.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sandbox.py for tasks to queue
+[2025-10-19T16:28:32.972+0000] {logging_mixin.py:188} INFO - [2025-10-19T16:28:32.972+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/sandbox.py
+[2025-10-19T16:28:33.003+0000] {processor.py:840} INFO - DAG(s) 'sandbox_dag' retrieved from /opt/airflow/dags/sandbox.py
+[2025-10-19T16:28:33.036+0000] {logging_mixin.py:188} INFO - [2025-10-19T16:28:33.036+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-19T16:28:33.073+0000] {logging_mixin.py:188} INFO - [2025-10-19T16:28:33.073+0000] {dag.py:3954} INFO - Setting next_dagrun for sandbox_dag to 2025-10-19 09:00:00+00:00, run_after=2025-10-20 09:00:00+00:00
+[2025-10-19T16:28:33.104+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sandbox.py took 0.144 seconds
